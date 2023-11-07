@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        a {
+    text-decoration: none;
+   }
+        p {
+         text-indent: 20px;
+        }
+    </style>
+</head>
+<body>
+<body bgcolor="lightblue">
+
+<table align="center" border=1 cellpadding="3" width="600px" bgcolor="white">
+    <tr align="center">
+        <td align ='center'id="Fstart" ><strong>Обзор на Бориса</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <ul>
+                <li><a href="website.main.html" target="_self"><b><i>Борис в молодости</i></b></a>
+                <li><a href="website.2.html" target="_self"><b><i>Борис в прайме<i/></b></a>
+                <li><a href="website.3.html" target="_self"><b><i><u>Борис сейчас</u></i></b></a>
+                <li><a href="https://vk.com/angry_lobsterius" target="_blank"><i>Борис в социальных сетях</i></a>
+                <li><a href="website.4.html" target="_blank"><i><u>Поговорить с Борисом</u></i></a>
+            </ul>
+        </td>
+    </tr>
+    <td colspan="6">
+<h3 align="center">Поговорить с Борисом</h3>
+<!--<form action="../../cgi-bin/form_action.py" method='get' target='_self'>-->
+<!--<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'>-->
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <p>Для поисковика:<input type="Text"  name="q" value="search"></p>
+    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Петров"></p>
+    <p>Имя: <input type="Text" name="first_name" size=20  value="Иван"></p>
+    <p>Телефон: <input type="Text" name="phone_number" size=20  value="+7 999 999 99 99"></p>
+    <p>E-mail: <input type="Text" name="mail" size=20  value="email@bobinio.com"></p>
+    <p>Возраст: <input type="Number" name="age" size=20 value="0"></p>
+    <p>Дата записи: <input type="date" name="user_date"  value='2023-11-08'></p>
+    <p>Где встретимся:
+        <input type="Radio" name="place" value="RedSquare">Красная площадь
+        <input type="Radio" name="place" value="JoeBiden" checked >Твой дом
+    </p>
+
+    <p>Записаться на:
+        <input type="Checkbox" name="talking"  value="Ted-a-Ted" checked>Разговор по душам
+        <input type="Checkbox"  name="talking"   value="Philosophical Talk" >Философская беседа
+        <input type="Checkbox" name="moving" value=")))" >Интим(женщинам не предлагать)
+        <input type="Checkbox" name="moving" value="Cardio" >Кардиотренировка
+    </p>
+
+    <p>Опыт в общении с Борисом
+        <select name="Experience">
+            <OPTION value="Rookie">0-2 года</OPTION>
+            <OPTION value="Experienced">3-5 лет</OPTION>
+            <OPTION value="Pro">5+ лет</OPTION>
+        </select>
+    </p>
+
+    <p>Имеются ли ограничения на шутки:
+        <br>
+        <TEXTAREA cols=80 name="textarea" rows=4>Ограничений нет</TEXTAREA>
+    </p>
+
+
+    <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+
+
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+
+</form>
+        <p align="right"><a href="#start" target="_self" title="Закладка">К началу страницы</a></p>
+</td>
+    <tr>
+        <td colspan="6" align="center">Тотемное животное<a href="./Website.photo.html" target="_blank"> <img src="./photo/D.jpeg"
+                                                                                                width="100"></a></td>
+    </tr>
+
+
+</table>
+</body>
+</html>
