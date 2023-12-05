@@ -13,7 +13,7 @@
     "vendor_code": "222",
     "description": "Зеленые яблоки",
     "price": 20,
-    "img": "/images/greenApple.jpeg"
+    "img": "./images/greenApple.jpeg"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "vendor_code": "333",
     "description": "Желтые яблоки",
     "price": 30,
-    "img": "/images/yellowApple.jpg"
+    "img": "./images/yellowApple.jpg"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "vendor_code": "444e",
     "description": "конфета яблоко",
     "price": 400,
-    "img": "/images/caramelApple.jpeg"
+    "img": "./images/caramelApple.jpeg"
   }
   ,
   {
@@ -38,7 +38,7 @@
     "vendor_code": "4445e",
     "description": "сок яблоко",
     "price": 400,
-    "img": "/images/juiceApple.jpeg"
+    "img": "./images/juiceApple.jpeg"
   },
   {
     "id": "6",
@@ -46,7 +46,7 @@
     "vendor_code": "4446e",
     "description": "пирог яблоко",
     "price": 400,
-    "img": "/images/pieApple.jpeg"
+    "img": "./images/pieApple.jpeg"
   },
   {
     "id": "7",
@@ -54,7 +54,7 @@
     "vendor_code": "4447e",
     "description": "сосна яблоко",
     "price": 700,
-    "img": "/images/pineApple.jpeg"
+    "img": "./images/pineApple.jpeg"
   },
   {
     "id": "8",
@@ -62,7 +62,7 @@
     "vendor_code": "4448e",
     "description": "часы яблоко",
     "price": 8000,
-    "img": "/images/watchApple.jpeg"
+    "img": "./images/watchApple.jpeg"
   },
   {
     "id": "9",
@@ -70,7 +70,7 @@
     "vendor_code": "444e",
     "description": "телефон яблоко",
     "price": 40000,
-    "img": "/images/phoneApple.jpeg"
+    "img": "./images/phoneApple.jpeg"
   }
   ,
 
