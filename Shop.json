@@ -5,7 +5,7 @@
     "vendor_code": "111",
     "description": "Красные яблоки",
     "price": 10,
-    "img": "/images/apple.jpg"
+    "img": "images/apple.jpg"
   },
   {
     "id": "2",
