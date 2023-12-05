@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apples</title>
+    <link href='CSS/form.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header align="center">
+    <table border="0" cellspacing="3" width="100%">
+        <tr>
+            <td><a href="https://www.whatsapp.com/?lang=ru_RU" target="_blank"><img src="images/wh-logo.png"
+                                                                                    width="30px"></a></td>
+            <td colspan="2" id="Fstart"><p> Yabloko</p></td>
+            <td><a href="https://web.telegram.org/k/" target="_blank"><img src="images/tg-logo.png" width="30px"></a>
+            </td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <a href="main.html"> Главная страница </a>
+            </td>
+            <td width="20%">
+                <a href="history.html"> История яблок </a>
+            </td>
+            <td width="20%"><a href="Shop.html"> Магазин </a></td>
+            <td width="20%">
+                <div class = "form" ><a href="form.html"> Поддержка </a></div>
+            </td>
+        </tr>
+    </table>
+<table align="center" border=1 cellpadding="3" width="600px" bgcolor="white">
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Петров"></p>
+    <p>Имя: <input type="Text" name="first_name" size=20  value="Иван"></p>
+    <p>Телефон: <input type="Text" name="phone_number" size=20  value="+7 999 999 99 99"></p>
+    <p>E-mail: <input type="Text" name="mail" size=20  value="email@bobinio.com"></p>
+    <p>Возраст: <input type="Number" name="age" size=20 value="0"></p>
+    <p>Дата заявления: <input type="date" name="user_date"  value='2023-11-08'></p>
+    <p>В чем проблема?:
+        <input type="Radio" name="place" value="RedSquare">Работа сайта
+        <input type="Radio" name="place" value="JoeBiden" checked >Вопрос по яблокам
+    </p>
+
+
+    <p>Опыт в поедании яблок
+        <select name="Experience">
+            <OPTION value="Rookie">0-2 года</OPTION>
+            <OPTION value="Experienced">3-5 лет</OPTION>
+            <OPTION value="Pro">5+ лет</OPTION>
+        </select>
+    </p>
+
+    <p>Описание проблемы:
+        <br>
+        <TEXTAREA cols=80 name="textarea" rows=4>???</TEXTAREA>
+    </p>
+
+
+    <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+
+
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+
+</form>
+    </table>
+        <p align="right"><a href="#Fstart" target="_self" title="Закладка">К началу страницы</a></p>
+</body>
+</html>
