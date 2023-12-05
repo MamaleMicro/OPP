@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Товар 1",
+    "vendor_code": "111",
+    "description": "Красные яблоки",
+    "price": 10,
+    "img": "/images/apple.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Товар 2",
+    "vendor_code": "222",
+    "description": "Зеленые яблоки",
+    "price": 20,
+    "img": "/images/greenApple.jpeg"
+  },
+  {
+    "id": "3",
+    "title": "Товар 3",
+    "vendor_code": "333",
+    "description": "Желтые яблоки",
+    "price": 30,
+    "img": "/images/yellowApple.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Товар 4",
+    "vendor_code": "444e",
+    "description": "конфета яблоко",
+    "price": 400,
+    "img": "/images/caramelApple.jpeg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Товар 5",
+    "vendor_code": "4445e",
+    "description": "сок яблоко",
+    "price": 400,
+    "img": "/images/juiceApple.jpeg"
+  },
+  {
+    "id": "6",
+    "title": "Товар 6",
+    "vendor_code": "4446e",
+    "description": "пирог яблоко",
+    "price": 400,
+    "img": "/images/pieApple.jpeg"
+  },
+  {
+    "id": "7",
+    "title": "Товар 7",
+    "vendor_code": "4447e",
+    "description": "сосна яблоко",
+    "price": 700,
+    "img": "/images/pineApple.jpeg"
+  },
+  {
+    "id": "8",
+    "title": "Товар 8",
+    "vendor_code": "4448e",
+    "description": "часы яблоко",
+    "price": 8000,
+    "img": "/images/watchApple.jpeg"
+  },
+  {
+    "id": "9",
+    "title": "Товар 9",
+    "vendor_code": "444e",
+    "description": "телефон яблоко",
+    "price": 40000,
+    "img": "/images/phoneApple.jpeg"
+  }
+  ,
+  {
+    "id": "10",
+    "title": "Товар 10",
+    "vendor_code": "44410e",
+    "description": "Описание 10",
+    "price": 900,
+    "img": "/images/Shop/pre.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Товар 11",
+    "vendor_code": "44411e",
+    "description": "Описание 1",
+    "price": 1100,
+    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_6.png"
+  }
+]
